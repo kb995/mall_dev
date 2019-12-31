@@ -1,0 +1,28 @@
+.error404 {
+    background-color: skyblue;
+    padding: 20rem;
+    h1 {
+        font-size: 4rem;
+        padding: 4rem;
+        background-color: blue;
+        color: white;
+        text-align: center;
+    }
+    h2 {
+        font-size: 3rem;
+        padding: 4rem 2rem;
+    }
+    .content-404 {
+        padding: 10rem 3rem;
+        h3 {
+            font-size: 2rem;
+        }
+        ul {
+            padding-bottom: 4rem;
+            li {
+                font-size: 2rem;
+                padding: 1rem 0;
+            }
+        }
+    }
+}

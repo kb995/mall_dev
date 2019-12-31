@@ -1,0 +1,89 @@
+.contents { // content, sidebar ? wrapper
+    width: 100%;
+    padding: 14rem;
+
+    .archive-posts {
+        width: 800px;
+        height: auto;
+        float: left;
+        margin-right: 2rem;
+        overflow: hidden;
+        .result-empty {
+            font-size: 2rem;
+            padding: 5rem 0;
+        }
+        .archive-title {
+            text-align: center;
+            padding: 2rem 0;
+            // background-color: #fff;
+        }
+    }
+    .content { // content.php
+        width: 800px;
+        min-height: 300px;
+        float: left; // ********** clear
+        margin-right: 50px;
+        &-header {
+            background-color: #F9F5EC;
+            h1 {
+                text-align: center;
+                font-size: 3.8rem;
+                padding: 2rem;
+            }
+        }
+        .content-entry {
+            padding: 5rem;
+
+            h1 {
+                font-size: 4rem;
+            }
+            h2 {
+                font-size: 3rem;
+                padding: 3rem 1rem;
+            }
+            h3 {
+                font-size: 2rem;
+                padding: 2rem 0;
+            }
+            p,li {
+                font-size: 1.5rem;
+                line-height: 3;
+                padding-left: 1rem;
+            }
+            .telephone {
+                font-size: 2rem;
+                padding-left: 2rem;
+                line-height: 2;
+            }
+
+            table {
+                min-width: 50%;
+                margin: 3rem auto;
+                
+                tr {
+                    th {
+                        min-width: 20%;
+                        font-size: 1.7rem;
+                        padding: 2rem;
+                        padding-left: 1.5rem;
+                        letter-spacing: .3rem;
+                        text-align: left;
+                        vertical-align: middle;
+                        background-color: #f2f2f2;
+                        border: 1px solid #c1c1c1;
+                    }
+                    td {
+                        min-width: 40%;
+                        font-size: 1.5rem;
+                        line-height: 1.5;
+                        vertical-align: middle;
+                        padding-left: 1rem;
+                        background-color: #fff;
+                        border: 1px solid #c1c1c1;
+
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,70 @@
+header {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+
+    .site-logo {
+        font-size: 2rem;
+        padding: 3rem 4rem;
+        float: left;
+        a {
+            color: #333;
+        }
+    }
+
+    #global-nav {
+        width: 100%;
+        background-color: #012563;
+        display: flex;
+        justify-content: center;
+        float: left; // ***** clear
+        &:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        #menu-item-110, #menu-item-111, #menu-item-115, #menu-item-54, #menu-item-120,#menu-item-121 {
+            width: 200px;
+            font-size: 2rem;
+            text-align: center;
+            position: relative;
+            float: left; // ***** clear
+            a {
+                width: 100%;
+                height: 100%;
+                line-height: 50px;
+                color: #ccc;
+                padding: 1rem;
+                display: block;
+                &:hover {
+                    background-color: gray;
+                }
+            }
+            .sub-menu {
+                width: 200px;
+                text-align: center;
+                background-color: #012563;
+                position: absolute;
+                z-index: 100;
+                li {
+                    a {
+                        width: 100%;
+                        height: 100%;
+                        color: #ccc;
+                        line-height: 50px;
+                        padding: 1rem;
+                        display: block;
+                        &:hover {
+                            background-color: gray;
+                         }
+                     }
+                }
+            }
+        }
+    }
+}
+
+.mv img {
+        width: 100%;
+        height: 700px;
+}

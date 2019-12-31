@@ -1,0 +1,23 @@
+#searchform {
+    min-width: 20%;
+    padding-top: 3rem;
+    float: right; // ***** clear
+    display: block;
+    div {
+        .screen-reader-text {
+            font-size: 1.5rem;
+        }
+        input#s {
+            width: 15rem;
+            height:3rem;
+            font-size: 2rem;
+            padding: .5rem;
+        }
+        #searchsubmit {
+            height: 3rem;
+            background-color: #333;
+            color: #fff;
+            vertical-align: top;
+        }
+    }
+}

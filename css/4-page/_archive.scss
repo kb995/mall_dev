@@ -1,0 +1,35 @@
+.content.archive {
+    min-height: 10rem;
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 3rem;
+    .attachment-large_thumbnail {
+        width: 120px;
+        height: 120px;
+        margin-right: 3rem;
+        float: left; // ***** clear
+    }
+    .a-title {
+    font-size: 2rem;
+    padding: 2rem;
+    display: inline-block;
+    }
+    .a-header {
+        .a-time  {
+            padding-bottom: 1rem;
+            padding-left: 2rem;
+            display: inline-block;
+        }
+        .a-author {
+            padding-left: 1rem;
+            display: inline-block;
+        }
+    }
+    .a-content {
+        p {
+            font-size: 1.5rem;
+            line-height: 1.5;
+            padding-left: 2rem;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.adjacent-post-links {
+    width: 100%;
+    float: left; // ***** clear
+    display: block;
+    ul {
+        width: 800px;
+        display: flex;
+        justify-content: space-between;
+        .previous {
+            font-size: 1.4rem;
+            padding: 8rem 3rem;
+            display: inline-block;
+            // &:before {
+            //     content: "＜＜";
+            //     display: inline-block;
+            // }
+        }
+        .next {
+            font-size: 1.4rem;
+            padding: 8rem 3rem;
+            display: inline-block;
+            // &:after {
+            //     content: "＞＞";
+            //     display: inline-block;
+            // }
+        }
+        
+    }
+}

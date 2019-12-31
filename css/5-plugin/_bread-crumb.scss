@@ -1,0 +1,22 @@
+#bread-crumb {
+    width: 100%;
+    height: 6rem;
+    padding: 0 6rem;
+    background-color: #F9F5EC;
+    display: block;
+    float: left; // ***** clear
+    ul {
+        overflow: hidden;
+        li {
+            min-width: 5%;
+            float: left; // ***** clear
+            font-size: 1.5rem;
+            line-height: 6rem;
+        }
+        li:not(:last-child):after{
+            content: "＞";
+            padding: 0 3rem;
+            display: inline-block;
+        }
+    }
+}

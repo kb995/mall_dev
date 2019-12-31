@@ -1,0 +1,38 @@
+//====================
+// setting
+//====================
+@import '../1-setting/reset';
+@import '../1-setting/base';
+@import '../1-setting/utility';
+
+//====================
+// modules
+//====================
+@import '../2-modules/header';
+@import '../2-modules/footer';
+@import '../2-modules/sidebar';
+@import '../2-modules/contents';
+@import '../2-modules/comments';
+
+//====================
+// parts
+//====================
+@import '../3-parts/search-form';
+@import '../3-parts/adjacent';
+@import '../3-parts/alignlight';
+@import '../3-parts/social-button';
+
+//====================
+// page
+//====================
+@import '../4-page/front-page';
+@import '../4-page/malls';
+@import '../4-page/contact-form';
+@import '../4-page/404';
+@import '../4-page/archive';
+
+//====================
+// plugin
+//====================
+@import '../5-plugin/bread-crumb';
+// @import '../5-plugin/paging';

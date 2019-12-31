@@ -1,0 +1,142 @@
+.news {
+    background-image: url('../../img/bg_news.png');
+    padding: 3rem;
+    margin-bottom: 5rem;
+    border-radius: 5px;
+    .section-title {
+        font-size: 2.5rem;
+        margin: 3rem 0;
+    }
+    .news-line {
+        padding: 1.5rem 0;
+        border-bottom: 2px dotted #666;
+        .news-title {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        .entry-date {
+            color: #666;
+            font-size: 1.5rem;
+            padding: .5rem 0;
+            display: inline-block;
+        }
+        .news-text  p{
+            font-size: 1.5rem;
+            line-height: 1.5;
+            letter-spacing: 1.5;
+        }
+    }
+}
+
+.malls {
+    padding: 3rem;
+    margin-bottom: 4rem;
+
+    .section-title {
+        font-size: 3rem;
+        margin: 2rem 0;
+    }
+    .mall-article {
+        width: 340px;
+        margin-right: 5rem;
+        margin-bottom: 3rem;
+        float: left; // ****** clear
+
+        .mall-title {
+            font-size: 2rem;
+            padding: 1.5rem 0;
+        }
+        .mall-img {
+            width: 100%;
+            margin-bottom: 2rem;
+            padding: .7rem;
+            background-color: #fff;
+        }
+        .mall-text {
+            font-size: 1.4rem;
+            letter-spacing: .1rem;
+            line-height: 1.4;
+        }
+        .link {
+            margin-top: 2rem;
+            text-align: right;
+            a {
+                color: #666;
+                font-size: 1.5rem;
+                background-color: #fff;
+                padding: 7px;
+                &:hover {
+                    background-color: #f3f3f3;
+                }
+            }
+        }
+    }
+    .mall-article:nth-child(odd) {
+        margin-right: 0;
+    }
+
+    .mall-article:nth-child(odd) {
+        margin-right: 0;
+    }
+}
+
+.column {
+    padding: 3rem;
+    margin-bottom: 4rem;
+    &-title {
+        font-size: 2.5rem;
+        margin: 3rem 0;
+    }
+    .link {
+        font-size: 1.5rem;
+        color: #333;
+        display: inline-block;
+    }
+
+    .column-article {
+        width: 50%;
+        padding: 5px;
+        padding-bottom:5rem;
+        float: left; // ***** clear
+
+        .column-left {
+            width: 100px;
+            height: 100px;
+            float: left; // ***** clear
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .column-right {
+            width: 70%;
+            padding-left: 2rem;
+            float: left;// ***** clear
+            h1 {
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+            time {
+                padding: .6rem 0;
+                display: inline-block;
+            }
+            .link {
+                width: 100%;
+                margin-top: 2rem;
+                text-align: right;
+                a {
+                    color: #666;
+                    font-size: 1.3rem;
+                    padding: 3px;
+                    &:hover {
+                        color: blue;
+                        text-decoration: underline;
+                    }
+                }
+            }
+            p {
+                line-height: 1.3;
+            }
+        }
+    }
+}
