@@ -22,7 +22,7 @@
                 <?php the_time(get_option('date_format')); ?>
             </time>
             <div class="news-text">
-                <?php the_excerpt(); ?>
+                <?php the_short_excerpt(); ?>
             </div>
         </div><!-- news-line -->
     <?php
@@ -52,7 +52,7 @@
             <?php the_post_thumbnail('mall_thumbnail', array('alt' => the_title_attribute('echo=0'), 'title' => the_title_attribute('echo=0'))); ?>
         </p>
         <div class="mall-text">
-            <?php the_excerpt(); ?>
+            <?php the_middle_excerpt(); ?>
         </div>
         <div class="link">
             <a href="<?php the_permalink(); ?>">
@@ -93,7 +93,7 @@
             <time datetime="<?php the_time(); ?>">
                 <?php the_time(get_option('date_format')); ?>
             </time>
-            <?php the_excerpt(); ?>
+            <?php the_middle_excerpt(); ?>
             <div class="link">
                 <a href="<?php the_permalink() ?>">
                     続きを読む

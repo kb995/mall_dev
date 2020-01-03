@@ -1,6 +1,6 @@
 <?php
 
-// ===== CSS/JSの読み込み =====
+// ====== CSS/JSの読み込み
 function my_script_init() {
     // 1,スタイル・スクリプトの名前 2,リンク 3,事前に読み込む 4,バージョン 5,メディア属性(all)
     // wp_enqueue_style('fontawesome', 'https://use.fontawesome.com/releases/v5.8.2/css/all.css', array(), '5.8.2', 'all');
@@ -17,7 +17,7 @@ function my_script_init() {
 add_action('wp_enqueue_scripts', 'my_script_init');
 
 
-// ===== カスタムメニュー =====
+// ====== カスタムメニュー
 register_nav_menus(
     // 外部ファイルでの指定名 => 管理画面上でメニューの指定名
     array(
@@ -27,7 +27,7 @@ register_nav_menus(
 );
 
 
-// ===== カスタムヘッダー =====
+// ====== カスタムヘッダー
 add_theme_support('custom-header',
 array(
     'header-text' => false,
@@ -47,7 +47,7 @@ register_sidebar(array(
   ));
 
 
-// アイキャッチ画像を利用できるようにします。
+// ===== アイキャッチ画像設定
 add_theme_support('post-thumbnails');
 
 // アイキャッチ画像サイズ設定
@@ -65,3 +65,31 @@ add_image_size('large_thumbnail', 120, 120, true);
 // モールイメージ用画像サイズ設定
 add_image_size('mall_thumbnail', 302, 123, true);
 
+
+// ===== 抜粋文
+function cms_excerpt_more() {
+    return ' ...';
+  }
+  add_filter('excerpt_more', 'cms_excerpt_more');
+
+// 45文字抜粋
+function the_short_excerpt() {
+    add_filter('excerpt_mblength', 'short_excerpt_length', 11);
+    the_excerpt();
+    remove_filter('excerpt_mblength', 'short_excerpt_length', 11);
+  }
+
+  function short_excerpt_length() {
+    return 45;
+  }
+
+// 80文字抜粋文
+  function the_middle_excerpt() {
+    add_filter('excerpt_mblength', 'middle_excerpt_length', 11);
+    the_excerpt();
+    remove_filter('excerpt_mblength', 'middle_excerpt_length', 11);
+  }
+
+  function middle_excerpt_length() {
+    return 80;
+  }

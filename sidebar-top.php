@@ -35,7 +35,7 @@
                 </h2>
                 <a class="category-thumbnail" href="<?php the_permalink(); ?>">
                 </a>
-                <?php the_excerpt(); ?>
+                <?php the_short_excerpt(); ?>
             </li>
             <?php
                 endwhile;
