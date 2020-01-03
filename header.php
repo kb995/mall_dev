@@ -82,3 +82,5 @@
 
 <!-- スマホ用 mv -->
 <div class="mv_sp"></div>
+<!-- タブレット用 mv -->
+<div class="mv_tab"></div>

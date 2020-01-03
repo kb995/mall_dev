@@ -17,7 +17,7 @@
         .entry-date {
             color: #666;
             font-size: 1.5rem;
-            padding: .5rem 0;
+            padding: 3% 0;
             display: inline-block;
         }
         .news-text  p{
@@ -29,7 +29,7 @@
 }
 
 .malls {
-    padding: 3rem;
+    padding: 3%;
     margin-bottom: 4rem;
 
     .section-title {
@@ -37,8 +37,8 @@
         margin: 2rem 0;
     }
     .mall-article {
-        width: 34rem;
-        margin-right: 5rem;
+        width: 45%;
+        margin-right: 10%;
         margin-bottom: 3rem;
         float: left; // ****** clear
 
@@ -81,9 +81,13 @@
 }
 
 .column {
-    padding: 3rem;
+    padding: 5%;
     margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     &-title {
+        width: 100%;
         font-size: 2.5rem;
         margin: 3rem 0;
     }
@@ -95,12 +99,13 @@
 
     .column-article {
         width: 50%;
-        padding: 5px;
+        padding: 1%;
         padding-bottom:5rem;
-        float: left; // ***** clear
+        // float: left; // ***** clear
+        overflow: hidden;
 
         .column-left {
-            width: 10rem;
+            width: 35%;
             height: 10rem;
             float: left; // ***** clear
             img {
@@ -109,8 +114,8 @@
             }
         }
         .column-right {
-            width: 70%;
-            padding-left: 2rem;
+            width: 60%;
+            padding-left: 8%;
             float: left;// ***** clear
             h1 {
                 font-size: 1.5rem;

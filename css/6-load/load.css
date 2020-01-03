@@ -160,7 +160,6 @@ header #global-nav ul #menu-item-110 a, header #global-nav ul #menu-item-111 a, 
   height: 100%;
   line-height: 50px;
   color: #ccc;
-  padding: 1rem;
   display: block;
 }
 
@@ -206,9 +205,8 @@ header #global-nav ul #menu-item-110 .sub-menu li a:hover, header #global-nav ul
 
 #sidebar {
   width: 25%;
-  height: auto;
+  height: 50%;
   background-color: #F4EBD8;
-  float: left;
 }
 
 #sidebar .rss-link {
@@ -225,20 +223,19 @@ header #global-nav ul #menu-item-110 .sub-menu li a:hover, header #global-nav ul
 
 #sidebar .rss-link a {
   color: #fff;
-  padding: 1.5rem 10rem;
 }
 
 #sidebar .sidebar-wrapper aside h1 {
   font-size: 1.8rem;
   color: #fff;
   letter-spacing: .3rem;
-  padding: 2rem;
+  padding: 5%;
   text-align: center;
   background-color: lightgreen;
 }
 
 #sidebar .sidebar-wrapper aside li {
-  padding: 2rem;
+  padding: 8%;
   border-bottom: 1px dotted #888;
 }
 
@@ -263,7 +260,13 @@ header #global-nav ul #menu-item-110 .sub-menu li a:hover, header #global-nav ul
 
 .contents {
   width: 100%;
-  padding: 14rem;
+  padding: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .contents .archive-posts {
@@ -286,8 +289,7 @@ header #global-nav ul #menu-item-110 .sub-menu li a:hover, header #global-nav ul
 
 .contents .content {
   width: 70%;
-  min-height: 300px;
-  float: left;
+  min-height: 5%;
   margin-right: 50px;
 }
 
@@ -512,7 +514,7 @@ header #global-nav ul #menu-item-110 .sub-menu li a:hover, header #global-nav ul
 .news .news-line .entry-date {
   color: #666;
   font-size: 1.5rem;
-  padding: .5rem 0;
+  padding: 3% 0;
   display: inline-block;
 }
 
@@ -523,7 +525,7 @@ header #global-nav ul #menu-item-110 .sub-menu li a:hover, header #global-nav ul
 }
 
 .malls {
-  padding: 3rem;
+  padding: 3%;
   margin-bottom: 4rem;
 }
 
@@ -533,8 +535,8 @@ header #global-nav ul #menu-item-110 .sub-menu li a:hover, header #global-nav ul
 }
 
 .malls .mall-article {
-  width: 34rem;
-  margin-right: 5rem;
+  width: 45%;
+  margin-right: 10%;
   margin-bottom: 3rem;
   float: left;
 }
@@ -582,11 +584,20 @@ header #global-nav ul #menu-item-110 .sub-menu li a:hover, header #global-nav ul
 }
 
 .column {
-  padding: 3rem;
+  padding: 5%;
   margin-bottom: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .column-title {
+  width: 100%;
   font-size: 2.5rem;
   margin: 3rem 0;
 }
@@ -599,13 +610,13 @@ header #global-nav ul #menu-item-110 .sub-menu li a:hover, header #global-nav ul
 
 .column .column-article {
   width: 50%;
-  padding: 5px;
+  padding: 1%;
   padding-bottom: 5rem;
-  float: left;
+  overflow: hidden;
 }
 
 .column .column-article .column-left {
-  width: 10rem;
+  width: 35%;
   height: 10rem;
   float: left;
 }
@@ -616,8 +627,8 @@ header #global-nav ul #menu-item-110 .sub-menu li a:hover, header #global-nav ul
 }
 
 .column .column-article .column-right {
-  width: 70%;
-  padding-left: 2rem;
+  width: 60%;
+  padding-left: 8%;
   float: left;
 }
 
@@ -867,6 +878,9 @@ header #global-nav ul #menu-item-110 .sub-menu li a:hover, header #global-nav ul
     background-size: cover;
     display: block;
   }
+  .mv_tab {
+    display: none;
+  }
   .contents {
     padding: 0;
   }
@@ -908,6 +922,35 @@ header #global-nav ul #menu-item-110 .sub-menu li a:hover, header #global-nav ul
   }
   #sidebar {
     display: none;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #global-nav ul #menu-item-110 a, #global-nav ul #menu-item-111 a, #global-nav ul #menu-item-115 a, #global-nav ul #menu-item-54 a, #global-nav ul #menu-item-120 a, #global-nav ul #menu-item-121 a {
+    font-size: 1.3rem;
+  }
+  .contents {
+    padding: 5%;
+  }
+  #sidebar {
+    width: 35%;
+  }
+  .swiper-container.mv {
+    display: none;
+  }
+  .mv_tab {
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(../../img/michael-weidemann-oGhTfu1UrOY-unsplash.jpg);
+    background-size: cover;
+    display: block;
+  }
+  .malls .mall-article {
+    width: 100%;
+  }
+  .column .column-article {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=load.css.map */

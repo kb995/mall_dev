@@ -1,6 +1,8 @@
-.contents { // content, sidebar ? wrapper
+.contents {
     width: 100%;
-    padding: 14rem;
+    padding: 10%;
+    display: flex;
+    justify-content: space-between;
 
     .archive-posts {
         width: 70%;
@@ -20,8 +22,8 @@
     }
     .content { // content.php
         width: 70%;
-        min-height: 300px;
-        float: left; // ********** clear
+        min-height: 5%;
+        // float: left; // ********** clear
         margin-right: 50px;
         &-header {
             background-color: #F9F5EC;

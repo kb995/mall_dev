@@ -1,0 +1,43 @@
+@media screen and (max-width: 950px) {
+    
+    #global-nav {
+            ul {
+                #menu-item-110, #menu-item-111, #menu-item-115, #menu-item-54, #menu-item-120,#menu-item-121 { 
+                    a {
+                        font-size: 1.3rem;
+                    }
+            }
+        }
+    }
+
+    .contents {
+        padding: 5%;
+    }
+    #sidebar {
+        width: 35%;
+    }
+    // mv
+    .swiper-container.mv {
+        display: none;
+    }
+    .mv_tab {
+        width:100%;
+        max-width: 100%;
+        height: 100vh;
+        background-image: url(../../img/michael-weidemann-oGhTfu1UrOY-unsplash.jpg);
+        background-size: cover;
+        display: block;
+    }
+
+
+    .malls {
+        .mall-article {
+            width: 100%;
+        }
+    }
+    .column {
+        .column-article {
+            width: 100%;
+        }
+    }
+}
