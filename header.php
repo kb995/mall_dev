@@ -79,3 +79,6 @@
         <div class="swiper-pagination"></div>
     </div>
 <?php endif; ?>
+
+<!-- スマホ用 mv -->
+<div class="mv_sp"></div>

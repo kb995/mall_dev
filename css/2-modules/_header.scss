@@ -23,41 +23,45 @@ header {
             display: block;
             clear: both;
         }
-        #menu-item-110, #menu-item-111, #menu-item-115, #menu-item-54, #menu-item-120,#menu-item-121 {
-            width: 200px;
-            font-size: 2rem;
-            text-align: center;
-            position: relative;
-            float: left; // ***** clear
-            a {
-                width: 100%;
-                height: 100%;
-                line-height: 50px;
-                color: #ccc;
-                padding: 1rem;
-                display: block;
-                &:hover {
-                    background-color: gray;
-                }
-            }
-            .sub-menu {
-                width: 200px;
+        ul {
+            width: 70%;
+
+            #menu-item-110, #menu-item-111, #menu-item-115, #menu-item-54, #menu-item-120,#menu-item-121 {
+                width: 20%;
+                font-size: 1.8rem;
                 text-align: center;
-                background-color: #012563;
-                position: absolute;
-                z-index: 100;
-                li {
-                    a {
-                        width: 100%;
-                        height: 100%;
-                        color: #ccc;
-                        line-height: 50px;
-                        padding: 1rem;
-                        display: block;
-                        &:hover {
-                            background-color: gray;
+                position: relative;
+                float: left; // ***** clear
+                a {
+                    width: 100%;
+                    height: 100%;
+                    line-height: 50px;
+                    color: #ccc;
+                    padding: 1rem;
+                    display: block;
+                    &:hover {
+                        background-color: gray;
+                    }
+                }
+                .sub-menu {
+                    width: 100%;
+                    text-align: center;
+                    background-color: #012563;
+                    position: absolute;
+                    z-index: 100;
+                    li {
+                        a {
+                            width: 100%;
+                            height: 100%;
+                            color: #ccc;
+                            line-height: 50px;
+                            padding: 1rem;
+                            display: block;
+                            &:hover {
+                                background-color: gray;
+                             }
                          }
-                     }
+                    }
                 }
             }
         }

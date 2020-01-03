@@ -143,15 +143,19 @@ header #global-nav:after {
   clear: both;
 }
 
-header #global-nav #menu-item-110, header #global-nav #menu-item-111, header #global-nav #menu-item-115, header #global-nav #menu-item-54, header #global-nav #menu-item-120, header #global-nav #menu-item-121 {
-  width: 200px;
-  font-size: 2rem;
+header #global-nav ul {
+  width: 70%;
+}
+
+header #global-nav ul #menu-item-110, header #global-nav ul #menu-item-111, header #global-nav ul #menu-item-115, header #global-nav ul #menu-item-54, header #global-nav ul #menu-item-120, header #global-nav ul #menu-item-121 {
+  width: 20%;
+  font-size: 1.8rem;
   text-align: center;
   position: relative;
   float: left;
 }
 
-header #global-nav #menu-item-110 a, header #global-nav #menu-item-111 a, header #global-nav #menu-item-115 a, header #global-nav #menu-item-54 a, header #global-nav #menu-item-120 a, header #global-nav #menu-item-121 a {
+header #global-nav ul #menu-item-110 a, header #global-nav ul #menu-item-111 a, header #global-nav ul #menu-item-115 a, header #global-nav ul #menu-item-54 a, header #global-nav ul #menu-item-120 a, header #global-nav ul #menu-item-121 a {
   width: 100%;
   height: 100%;
   line-height: 50px;
@@ -160,19 +164,19 @@ header #global-nav #menu-item-110 a, header #global-nav #menu-item-111 a, header
   display: block;
 }
 
-header #global-nav #menu-item-110 a:hover, header #global-nav #menu-item-111 a:hover, header #global-nav #menu-item-115 a:hover, header #global-nav #menu-item-54 a:hover, header #global-nav #menu-item-120 a:hover, header #global-nav #menu-item-121 a:hover {
+header #global-nav ul #menu-item-110 a:hover, header #global-nav ul #menu-item-111 a:hover, header #global-nav ul #menu-item-115 a:hover, header #global-nav ul #menu-item-54 a:hover, header #global-nav ul #menu-item-120 a:hover, header #global-nav ul #menu-item-121 a:hover {
   background-color: gray;
 }
 
-header #global-nav #menu-item-110 .sub-menu, header #global-nav #menu-item-111 .sub-menu, header #global-nav #menu-item-115 .sub-menu, header #global-nav #menu-item-54 .sub-menu, header #global-nav #menu-item-120 .sub-menu, header #global-nav #menu-item-121 .sub-menu {
-  width: 200px;
+header #global-nav ul #menu-item-110 .sub-menu, header #global-nav ul #menu-item-111 .sub-menu, header #global-nav ul #menu-item-115 .sub-menu, header #global-nav ul #menu-item-54 .sub-menu, header #global-nav ul #menu-item-120 .sub-menu, header #global-nav ul #menu-item-121 .sub-menu {
+  width: 100%;
   text-align: center;
   background-color: #012563;
   position: absolute;
   z-index: 100;
 }
 
-header #global-nav #menu-item-110 .sub-menu li a, header #global-nav #menu-item-111 .sub-menu li a, header #global-nav #menu-item-115 .sub-menu li a, header #global-nav #menu-item-54 .sub-menu li a, header #global-nav #menu-item-120 .sub-menu li a, header #global-nav #menu-item-121 .sub-menu li a {
+header #global-nav ul #menu-item-110 .sub-menu li a, header #global-nav ul #menu-item-111 .sub-menu li a, header #global-nav ul #menu-item-115 .sub-menu li a, header #global-nav ul #menu-item-54 .sub-menu li a, header #global-nav ul #menu-item-120 .sub-menu li a, header #global-nav ul #menu-item-121 .sub-menu li a {
   width: 100%;
   height: 100%;
   color: #ccc;
@@ -181,7 +185,7 @@ header #global-nav #menu-item-110 .sub-menu li a, header #global-nav #menu-item-
   display: block;
 }
 
-header #global-nav #menu-item-110 .sub-menu li a:hover, header #global-nav #menu-item-111 .sub-menu li a:hover, header #global-nav #menu-item-115 .sub-menu li a:hover, header #global-nav #menu-item-54 .sub-menu li a:hover, header #global-nav #menu-item-120 .sub-menu li a:hover, header #global-nav #menu-item-121 .sub-menu li a:hover {
+header #global-nav ul #menu-item-110 .sub-menu li a:hover, header #global-nav ul #menu-item-111 .sub-menu li a:hover, header #global-nav ul #menu-item-115 .sub-menu li a:hover, header #global-nav ul #menu-item-54 .sub-menu li a:hover, header #global-nav ul #menu-item-120 .sub-menu li a:hover, header #global-nav ul #menu-item-121 .sub-menu li a:hover {
   background-color: gray;
 }
 
@@ -201,7 +205,7 @@ header #global-nav #menu-item-110 .sub-menu li a:hover, header #global-nav #menu
 }
 
 #sidebar {
-  width: 250px;
+  width: 25%;
   height: auto;
   background-color: #F4EBD8;
   float: left;
@@ -248,12 +252,6 @@ header #global-nav #menu-item-110 .sub-menu li a:hover, header #global-nav #menu
   margin: 2rem 0;
 }
 
-#sidebar .sidebar-wrapper aside li .category-thumbnail {
-  width: 50px;
-  height: 50px;
-  background-color: skyblue;
-}
-
 #sidebar .sidebar-wrapper aside li p {
   font-size: 1.3rem;
   line-height: 1.2;
@@ -269,7 +267,7 @@ header #global-nav #menu-item-110 .sub-menu li a:hover, header #global-nav #menu
 }
 
 .contents .archive-posts {
-  width: 800px;
+  width: 70%;
   height: auto;
   float: left;
   margin-right: 2rem;
@@ -287,7 +285,7 @@ header #global-nav #menu-item-110 .sub-menu li a:hover, header #global-nav #menu
 }
 
 .contents .content {
-  width: 800px;
+  width: 70%;
   min-height: 300px;
   float: left;
   margin-right: 50px;
@@ -355,7 +353,7 @@ header #global-nav #menu-item-110 .sub-menu li a:hover, header #global-nav #menu
   font-size: 1.5rem;
   line-height: 1.5;
   vertical-align: middle;
-  padding-left: 1rem;
+  padding: 1rem;
   background-color: #fff;
   border: 1px solid #c1c1c1;
 }
@@ -376,8 +374,8 @@ header #global-nav #menu-item-110 .sub-menu li a:hover, header #global-nav #menu
 }
 
 #comments .avatar {
-  width: 50px;
-  height: 50px;
+  width: 5rem;
+  height: 5rem;
 }
 
 #comments .logged-in-as {
@@ -439,7 +437,7 @@ header #global-nav #menu-item-110 .sub-menu li a:hover, header #global-nav #menu
 }
 
 .adjacent-post-links ul {
-  width: 800px;
+  width: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -463,6 +461,7 @@ header #global-nav #menu-item-110 .sub-menu li a:hover, header #global-nav #menu
 .alignright {
   width: 30%;
   margin-left: auto;
+  text-align: right;
 }
 
 .alignright li {
@@ -479,11 +478,13 @@ header #global-nav #menu-item-110 .sub-menu li a:hover, header #global-nav #menu
 }
 
 .social-buttons {
-  text-align: center;
+  text-align: left;
+  padding-left: 5rem;
 }
 
 .social-buttons li {
   display: inline-block;
+  padding-left: 2rem;
 }
 
 .news {
@@ -532,7 +533,7 @@ header #global-nav #menu-item-110 .sub-menu li a:hover, header #global-nav #menu
 }
 
 .malls .mall-article {
-  width: 340px;
+  width: 34rem;
   margin-right: 5rem;
   margin-bottom: 3rem;
   float: left;
@@ -604,8 +605,8 @@ header #global-nav #menu-item-110 .sub-menu li a:hover, header #global-nav #menu
 }
 
 .column .column-article .column-left {
-  width: 100px;
-  height: 100px;
+  width: 10rem;
+  height: 10rem;
   float: left;
 }
 
@@ -668,7 +669,7 @@ header #global-nav #menu-item-110 .sub-menu li a:hover, header #global-nav #menu
 }
 
 .wpcf7-form table tr th {
-  min-width: 30%;
+  min-width: 35%;
   font-size: 1.4rem;
   padding: 5px;
   padding-left: 1.5rem;
@@ -766,6 +767,7 @@ header #global-nav #menu-item-110 .sub-menu li a:hover, header #global-nav #menu
 }
 
 .content.archive {
+  width: 90%;
   min-height: 10rem;
   background-color: #fff;
   padding: 2rem;
@@ -773,16 +775,18 @@ header #global-nav #menu-item-110 .sub-menu li a:hover, header #global-nav #menu
 }
 
 .content.archive .attachment-large_thumbnail {
-  width: 120px;
-  height: 120px;
+  width: 12rem;
+  height: 12rem;
   margin-right: 3rem;
   float: left;
 }
 
 .content.archive .a-title {
+  width: 60%;
   font-size: 2rem;
   padding: 2rem;
-  display: inline-block;
+  display: block;
+  float: left;
 }
 
 .content.archive .a-header .a-time {
@@ -794,6 +798,11 @@ header #global-nav #menu-item-110 .sub-menu li a:hover, header #global-nav #menu
 .content.archive .a-header .a-author {
   padding-left: 1rem;
   display: inline-block;
+}
+
+.content.archive .a-content {
+  float: left;
+  width: 70%;
 }
 
 .content.archive .a-content p {
@@ -826,5 +835,79 @@ header #global-nav #menu-item-110 .sub-menu li a:hover, header #global-nav #menu
   content: "＞";
   padding: 0 3rem;
   display: inline-block;
+}
+
+@media screen and (max-width: 479px) {
+  header {
+    background-color: #002462;
+  }
+  header .site-logo {
+    padding: 2rem;
+  }
+  header .site-logo a {
+    color: #fff;
+    font-size: 1.5rem;
+    letter-spacing: .3rem;
+    font-weight: normal;
+  }
+  header #global-nav {
+    display: none;
+  }
+  #searchform {
+    display: none;
+  }
+  .swiper-container.mv {
+    display: none;
+  }
+  .mv_sp {
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(../../img/ethan-hoover-7ZEVswRefRw-unsplash.jpg);
+    background-size: cover;
+    display: block;
+  }
+  .contents {
+    padding: 0;
+  }
+  .contents .content {
+    width: 100%;
+  }
+  .contents .content .news {
+    width: 100%;
+  }
+  .contents .content .news .section-title {
+    margin: 3rem auto;
+    text-align: center;
+  }
+  .contents .content .malls {
+    padding: 0;
+  }
+  .contents .content .malls .section-title {
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+  .contents .content .malls .mall-article {
+    width: 100%;
+    float: none;
+    margin: 3rem auto;
+    padding: 1rem;
+  }
+  .contents .content .column {
+    padding: 0;
+  }
+  .contents .content .column .column-title {
+    margin: 3rem auto;
+    text-align: center;
+  }
+  .contents .content .column .column-article {
+    width: 100%;
+    float: none;
+    padding: 1rem;
+  }
+  #sidebar {
+    display: none;
+  }
 }
 /*# sourceMappingURL=load.css.map */

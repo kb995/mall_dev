@@ -63,7 +63,7 @@ add_image_size('large_thumbnail', 120, 120, true);
 // add_image_size('category_image', 658, 113, true);
 
 // モールイメージ用画像サイズ設定
-add_image_size('mall_thumbnail', 302, 123, true);
+add_image_size('mall_thumbnail', 400, 200, true);
 
 
 // ===== 抜粋文
